@@ -1,0 +1,9 @@
+language: java
+script: mvn clean install
+# whitelist
+branches:
+  only:
+    - master
+notifications:
+  email:
+    - admin@yankun.org
